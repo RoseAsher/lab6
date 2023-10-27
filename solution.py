@@ -13,6 +13,7 @@ system = [central_body, planet1, planet2]
 
 def calculate_distance(body1, body2):
     """Returns the distance between two bodies"""
+    distance = (body1-body2)
     pass
 
 def calculate_force(body1, body2):
